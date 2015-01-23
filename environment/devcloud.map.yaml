@@ -1,0 +1,10 @@
+image:
+  trusty: 03a615c9-6570-44b8-b0d9-a6619876055f
+flavor:
+  small: a58cae97-b8af-41c9-9771-1342636f8a92
+  medium: e24a4bac-77fb-4cf3-8bea-cf3a7c862d50
+  large: 7729ae21-ac62-4fa0-9300-dba676235b68
+  storage: 7729ae21-ac62-4fa0-9300-dba676235b68
+networks:
+   default:
+     - 96ff1d4f-5777-429d-8547-16d724b911ae

@@ -8,6 +8,6 @@ rjil::ceph::osd::osd_journal_size: 2
 nova::compute::libvirt::libvirt_virt_type: qemu
 
 rjil::neutron::contrail::public_cidr: 100.1.0.0/24
-rjil::system::accounts::active_users: [soren,bodepd,hkumar,jenkins,consul,pandeyop,jaspreet,vivek,ahmad,vaidy,himanshu,rohit,sanjayu,vigneshvar,alokjani]
-rjil::system::accounts::sudo_users: [soren,bodepd,hkumar,jenkins,consul,pandeyop,jaspreet,vivek,ahmad,vaidy,himanshu,rohit,sanjayu,vigneshvar,alokjani]
+rjil::system::accounts::active_users: [soren,bodepd,hkumar,jenkins,consul,pandeyop,jaspreet,vivek,ahmad,vaidy,himanshu,rohit,sanjayu,vigneshvar,alokjani,devcloud]
+rjil::system::accounts::sudo_users: [soren,bodepd,hkumar,jenkins,consul,pandeyop,jaspreet,vivek,ahmad,vaidy,himanshu,rohit,sanjayu,vigneshvar,alokjani,devcloud]
 rjil::base::self_signed_cert: true
