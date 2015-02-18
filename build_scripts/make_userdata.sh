@@ -59,6 +59,9 @@ if [ -n "${puppet_modules_source_repo}" ]; then
     git merge -m 'Merging Pull Request' test_${pull_request_id}
     popd
   fi
+  $(if [ -f custom_user_data ]; then
+    cat custom_user_data
+  fi)
   time gem install librarian-puppet-simple --no-ri --no-rdoc;
   mkdir -p /etc/puppet/manifests.overrides
   cp /tmp/rjil/site.pp /etc/puppet/manifests.overrides/

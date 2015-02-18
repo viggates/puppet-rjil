@@ -1,0 +1,21 @@
+export http_proxy=http://x.x.x.x:3128
+export https_proxy=http://x.x.x.x:3128
+export consul_discovery_token=$(curl http://consuldiscovery.linux2go.dk/new)
+export cloud_provider=mycloud
+export KEY_NAME=mykey
+export ssh_user=ubuntu
+export git_protocol=https
+
+#Under cloud credentials to orchestrate new cloud
+export OS_AUTH_URL=http://x.x.x.x:5000/v2.0
+export OS_TENANT_ID=c900930dbb194121adee23ff300a164d
+export OS_TENANT_NAME="myproject"
+export OS_USERNAME="myuser"
+export OS_PASSWORD="mypassword"
+export OS_REGION_NAME="RegionOne"
+export OS_IMAGE_ID="8fe3dedb-90e4-4026-98c0-8d1868c92a79"
+export OS_FLAVOR_SMALL_ID="4d1f117e-812e-418a-8224-03c6cb046bd5"
+export OS_FLAVOR_MEDIUM_ID="a6ea2763-ff0a-4554-a6f2-6a52c92752a5"
+export OS_FLAVOR_LARGE_ID="138a588b-7724-4864-9d25-ef9960cf0a1c"
+export OS_FLAVOR_STORAGE_ID="138a588b-7724-4864-9d25-ef9960cf0a1c"
+export OS_NETWORKS_DEFAULT_ID="92b96f2f-accd-4a0c-a9f6-92c759f4a57b"
